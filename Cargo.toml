@@ -1,9 +1,15 @@
 [package]
 name = "tck_no"
-version = "0.1.0"
+description = "Turkish Citizenship ID Validator and Generator Library for Rust"
+readme = "README.md"
+authors = ["Baris Ceviz (@PeaceCwz) <baris@ceviz.dev>"]
+repository = "https://github.com/peacecwz/tck_no/"
+version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+license-file = "LICENSE.md"
+keywords = ["turkish citizenship", "identity", "tckn"]
+categories = ["value-formatting"]
 
 [dependencies]
 rand = "0.8.4"

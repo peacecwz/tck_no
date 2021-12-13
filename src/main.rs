@@ -11,7 +11,7 @@ fn main() {
     }
 }
 
-fn generate() -> String {
+pub fn generate() -> String {
     let mut sum_of_even_digits = 0;
     let mut sum_of_odd_digits = 0;
 
@@ -47,7 +47,7 @@ fn generate() -> String {
     tck_no
 }
 
-fn validate(tck_no: &str) -> bool {
+pub fn validate(tck_no: &str) -> bool {
     if tck_no.len() != 11 {}
 
     let first_digit = tck_no.chars().next().unwrap().to_digit(10).unwrap();

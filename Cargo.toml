@@ -8,7 +8,7 @@ version = "1.0.0"
 edition = "2021"
 license = "MIT"
 license-file = "LICENSE.md"
-keywords = ["turkish citizenship", "identity", "tckn"]
+keywords = ["turkish", "citizenship", "identity", "tckn"]
 categories = ["value-formatting"]
 
 [dependencies]
